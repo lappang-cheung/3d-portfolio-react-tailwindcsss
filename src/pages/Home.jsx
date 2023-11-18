@@ -3,6 +3,7 @@ import { Canvas } from '@react-three/fiber'
 
 import Loader from '../components/Loader'
 
+import Sky from '../models/Sky'
 import Island from '../models/Island'
 
 const Home = () => {
@@ -37,7 +38,7 @@ const Home = () => {
 						skyColor="#b1e1ff"
 						groundColor="#000000"
 						intensity={1}/>
-
+					<Sky />
 					<Island
 						position={isLandPosition}
 						scale={islandScale}
