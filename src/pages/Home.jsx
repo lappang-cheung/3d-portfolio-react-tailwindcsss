@@ -12,6 +12,7 @@ const Home = () => {
 
 	const [currentStage, setCurrentStage] = useState(1)
 	const [isRotating, setIsRotating] = useState(false)
+
 	// Adjust the island
 	const adjustIslandForScreenSize = () => {
 		let screenScale,
